@@ -1,15 +1,35 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Gradle
+.gradle/
+build/
+*/build/
+
+# Local configuration (SDK path, keystore)
 local.properties
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+
+# Kotlin specific
+.kotlin/
+
+# Logs
+*.log
+
+# Android Captures
+captures/
+
+# macOS Finder files
+.DS_Store
+
+# Generated files
+generated/
+
+# From Gradle Wrapper
+gradle-wrapper.jar
+
+# Cache
+.cxx/
+
+# Google Services (if needed)
+google-services.json
