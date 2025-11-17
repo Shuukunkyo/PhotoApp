@@ -15,6 +15,7 @@ class PictureViewHolder(val pictureview: View,context: Context) : RecyclerView.V
     private lateinit var authorName: String
     private lateinit var url: String
 
+    //Image图像的点击事件
     init {
         imageView.setOnClickListener {
             val intent = Intent(context, PictureActivity::class.java)
