@@ -63,6 +63,6 @@ class Adapter(val context: Context, var pictureList: ArrayList<PictureData>) : R
         this.pictureList = newPictureList
         // 通知适配器数据已发生变化，这将触发 RecyclerView 的重绘。
         // 在有大量数据更新时，使用 DiffUtil 会更高效。
-        notifyDataSetChanged()
+//        notifyDataSetChanged()
     }
 }
