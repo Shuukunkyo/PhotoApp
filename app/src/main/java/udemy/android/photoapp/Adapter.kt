@@ -73,10 +73,10 @@ class Adapter(val context: Context, var pictureList: ArrayList<PictureData>) : R
 
     }
     fun calculatePrice(a: Int, b: Int): Int {
-        Log.d("this is myMainBranch", "adapter changed")
-        return a + b
+        Log.d("this is myBranch_1", "adapter changed")
+        return (a + b) * 2
+        Log.d("this is myBranch_2", "adapter changed")
+
     }
-
-
 
 }
