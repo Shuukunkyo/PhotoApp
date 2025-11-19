@@ -66,5 +66,10 @@ class Adapter(val context: Context, var pictureList: ArrayList<PictureData>) : R
         // 在有大量数据更新时，使用 DiffUtil 会更高效。
         notifyDataSetChanged()
         Log.d("adapter", "adapter changed")
+        Log.d("this is main_1", "adapter changed")
+        Log.d("this is main_2", "adapter changed")
+        Log.d("this is main_3", "adapter changed")
+        Log.d("this is main_4", "adapter changed")
+
     }
 }
