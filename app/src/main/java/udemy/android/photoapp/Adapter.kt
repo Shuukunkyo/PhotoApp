@@ -1,6 +1,7 @@
 package udemy.android.photoapp
 
 import android.content.Context
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -63,6 +64,7 @@ class Adapter(val context: Context, var pictureList: ArrayList<PictureData>) : R
         this.pictureList = newPictureList
         // 通知适配器数据已发生变化，这将触发 RecyclerView 的重绘。
         // 在有大量数据更新时，使用 DiffUtil 会更高效。
-//        notifyDataSetChanged()
+        notifyDataSetChanged()
+        Log.d("adapter", "adapter changed")
     }
 }
