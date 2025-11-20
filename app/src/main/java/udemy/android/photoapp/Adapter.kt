@@ -78,7 +78,5 @@ class Adapter(val context: Context, var pictureList: ArrayList<PictureData>) : R
         Log.d("this is MyMainBranch_3", "adapter changed")
 
     }
-
-
-
+    //here is my branch_2 for 1
 }
