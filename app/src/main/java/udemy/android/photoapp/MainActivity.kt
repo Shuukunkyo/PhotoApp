@@ -137,5 +137,7 @@ class MainActivity : AppCompatActivity() {
             }
         })
     }
-    //这是我的myBranch_1  MainActivity
+    //这是我的myBranch_1  MainActivity for 1
+    //这是我的myBranch_1  MainActivity for 2
+
 }
